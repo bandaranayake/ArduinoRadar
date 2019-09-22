@@ -24,7 +24,7 @@ void loop(){
   {                                  
     servo.write(servoAngle);              
     delay(50);
-    print(servoAngle);       
+    print(0-servoAngle);       
   }
 }
 
